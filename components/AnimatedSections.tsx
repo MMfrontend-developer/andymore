@@ -60,14 +60,14 @@ export function AnimatedWhyUs() {
       {whyUsItems.map(({ icon: Icon, title, desc }, i) => (
         <motion.div
           key={title}
-          className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-shadow"
+          className="group bg-white rounded-xl p-6 shadow-sm border border-neutral-100/50 hover:border-[#c0392b]/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
           initial={{ opacity: 0, y: 15 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4, delay: i * 0.05, ease: "easeOut" }}
         >
-          <div className="w-11 h-11 rounded-lg bg-red-50 flex items-center justify-center mb-4">
-            <Icon size={22} className="text-[#c0392b]" />
+          <div className="w-11 h-11 rounded-lg bg-red-50 flex items-center justify-center mb-4 group-hover:bg-[#c0392b] transition-colors">
+            <Icon size={22} className="text-[#c0392b] group-hover:text-white transition-colors" />
           </div>
           <h3 className="font-semibold text-neutral-900 mb-2">{title}</h3>
           <p className="text-sm text-neutral-500 leading-relaxed">{desc}</p>
@@ -84,18 +84,18 @@ export function AnimatedTestimonials({ items }: { items: Testimonial[] }) {
       {items.map((t, i) => (
         <motion.div
           key={i}
-          className="bg-white rounded-xl p-6 shadow-sm border border-neutral-100 flex flex-col gap-4"
+          className="group bg-white rounded-xl p-6 shadow-sm border border-neutral-100 flex flex-col gap-4 hover:border-[#c0392b]/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
           initial={{ opacity: 0, y: 15 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4, delay: (i % 3) * 0.05, ease: "easeOut" }}
         >
-          <Quote size={28} className="text-[#c0392b]/20" />
+          <Quote size={28} className="text-[#c0392b]/20 group-hover:text-[#c0392b]/40 group-hover:scale-110 transition-all duration-300 origin-left" />
           <p className="text-neutral-700 text-sm leading-relaxed flex-1 italic">
             &ldquo;{t.quote}&rdquo;
           </p>
           <div className="flex items-center gap-3 pt-2 border-t border-neutral-100">
-            <div className="w-9 h-9 rounded-full bg-gradient-to-br from-[#c0392b] to-[#c9a84c] flex items-center justify-center text-white font-bold text-sm">
+            <div className="w-9 h-9 rounded-full bg-gradient-to-br from-[#c0392b] to-[#c9a84c] flex items-center justify-center text-white font-bold text-sm group-hover:scale-105 transition-transform duration-300">
               {t.name.charAt(0)}
             </div>
             <div>

@@ -37,7 +37,7 @@ export default function ServiceCard({ service, index = 0 }: ServiceCardProps) {
 
   return (
     <motion.div
-      className="group bg-white rounded-xl p-6 border border-neutral-100 hover:border-[#c0392b]/30 hover:shadow-xl transition-all duration-300 flex flex-col gap-4"
+      className="group bg-white rounded-xl p-6 border border-neutral-100 hover:border-[#c0392b]/30 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col gap-4"
       initial={{ opacity: 0, y: 15 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}

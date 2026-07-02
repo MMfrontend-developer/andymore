@@ -64,23 +64,23 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Brand */}
         <div className="lg:col-span-1">
-          <div className="inline-block bg-white p-1 rounded-xl shadow-sm mb-4">
+          <div className="inline-block rounded-xl shadow-sm mb-4">
             <div 
               className="relative overflow-hidden shrink-0" 
               style={{ 
-                width: "100px", 
-                height: "47px",
+                width: "115px", 
+                height: "60px",
               }}
             >
               <Image
                 src="/images/products/logo 2.png"
                 alt="Andymore Logo"
-                width={1774}
+                width={2000}
                 height={887}
                 className="absolute max-w-none"
                 style={{
-                  width: "141.2%",
-                  height: "160.1%",
+                  width: "145.2%",
+                  height: "180.1%",
                   left: "-19.6%",
                   top: "-19.1%",
                 }}
@@ -167,8 +167,8 @@ export default function Footer() {
             <li className="flex gap-2.5 items-start">
               <MapPin size={16} className="text-[#e74c3c] mt-0.5 shrink-0" />
               <div>
-                <p>{ADDRESS_LINE1}</p>
-                <p>{ADDRESS_LINE2}</p>
+                <p className="hover:text-white">{ADDRESS_LINE1}</p>
+                <p className="hover:text-white">{ADDRESS_LINE2}</p>
                 <a
                   href={GOOGLE_MAPS_URL}
                   target="_blank"

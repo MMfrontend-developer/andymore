@@ -211,8 +211,13 @@ export default function AboutPage() {
                 body: "We hold real stock of our most popular lines. When we say we'll deliver, we deliver. We've built our reputation on reliability, and we don't take that lightly.",
               },
             ].map((c) => (
-              <div key={c.num} className="flex flex-col gap-4 p-6 rounded-xl border border-neutral-100 bg-[#f8f6f3]">
-                <span className="font-display text-5xl font-bold text-[#c0392b]/20">{c.num}</span>
+              <div 
+                key={c.num} 
+                className="group flex flex-col gap-4 p-6 rounded-xl border border-neutral-100 bg-[#f8f6f3] hover:bg-white hover:border-[#c0392b]/25 hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
+              >
+                <span className="font-display text-5xl font-bold text-[#c0392b]/20 group-hover:text-[#c0392b]/40 group-hover:scale-105 transition-all duration-300 origin-left inline-block">
+                  {c.num}
+                </span>
                 <h3 className="font-semibold text-lg text-neutral-900">{c.title}</h3>
                 <p className="text-sm text-neutral-500 leading-relaxed">{c.body}</p>
               </div>

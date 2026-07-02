@@ -38,14 +38,14 @@ export default function Navbar() {
           : "bg-white/90 backdrop-blur-sm"
       }`}
     >
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className=" items-center gap-3 shrink-0" onClick={() => setOpen(false)}>
           <div 
             className="relative overflow-hidden shrink-0" 
             style={{ 
-              width: "90px", 
-              height: "42px",
+              width: "105px", 
+              height: "60px",
             }}
           >
             <Image
