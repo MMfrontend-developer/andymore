@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, Mail, MapPin } from "lucide-react";
 
 // Inline SVG social icons (not in this version of lucide-react)
@@ -63,10 +64,29 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Brand */}
         <div className="lg:col-span-1">
-          <p className="font-display font-bold text-white text-xl mb-1">Andymore</p>
-          <p className="text-xs uppercase tracking-widest text-neutral-500 mb-4">
-            Business Concept
-          </p>
+          <div className="inline-block bg-white p-1 rounded-xl shadow-sm mb-4">
+            <div 
+              className="relative overflow-hidden shrink-0" 
+              style={{ 
+                width: "100px", 
+                height: "47px",
+              }}
+            >
+              <Image
+                src="/images/products/logo 2.png"
+                alt="Andymore Logo"
+                width={1774}
+                height={887}
+                className="absolute max-w-none"
+                style={{
+                  width: "141.2%",
+                  height: "160.1%",
+                  left: "-19.6%",
+                  top: "-19.1%",
+                }}
+              />
+            </div>
+          </div>
           <p className="text-sm leading-relaxed text-neutral-400">
             Your one-stop shop for quality building materials and kitchen appliances
             in Lagos. Trusted by homeowners, contractors, and developers.

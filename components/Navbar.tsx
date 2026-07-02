@@ -40,23 +40,29 @@ export default function Navbar() {
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5 shrink-0" onClick={() => setOpen(false)}>
-          <div className="w-10 h-10 rounded-full overflow-hidden bg-[#c0392b] flex items-center justify-center">
+        <Link href="/" className=" items-center gap-3 shrink-0" onClick={() => setOpen(false)}>
+          <div 
+            className="relative overflow-hidden shrink-0" 
+            style={{ 
+              width: "90px", 
+              height: "42px",
+            }}
+          >
             <Image
-              src="/images/products/andymore-storefront.jpg"
-              alt="Andymore logo"
-              width={40}
-              height={40}
-              className="object-cover w-full h-full"
+              src="/images/products/logo 2.png"
+              alt="Andymore logo symbol"
+              width={1774}
+              height={887}
+              className="absolute max-w-none"
+              style={{
+                width: "145.2%",
+                height: "180.1%",
+                left: "-19.6%",
+                top: "-19.1%",
+                mixBlendMode: "multiply",
+              }}
+              priority
             />
-          </div>
-          <div className="leading-tight">
-            <span className="block font-display font-bold text-[#c0392b] text-lg leading-none">
-              Andymore
-            </span>
-            <span className="block text-[10px] text-neutral-500 tracking-widest uppercase">
-              Business Concept
-            </span>
           </div>
         </Link>
 
@@ -100,7 +106,7 @@ export default function Navbar() {
 
       {/* Mobile drawer */}
       {open && (
-        <div className="md:hidden bg-white border-t border-neutral-100 shadow-lg">
+        <div className="md:hidden border-t border-neutral-100 shadow-lg">
           <ul className="flex flex-col py-2">
             {navLinks.map((link) => (
               <li key={link.href}>

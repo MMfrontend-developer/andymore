@@ -73,8 +73,8 @@ export const metadata: Metadata = {
     images: ["/images/products/andymore-storefront.jpg"],
   },
   icons: {
-    icon: "/images/products/andymore-storefront.jpg",
-    apple: "/images/products/andymore-storefront.jpg",
+    icon: "/images/products/logo.png",
+    apple: "/images/products/logo.png",
   },
   robots: { index: true, follow: true },
 };

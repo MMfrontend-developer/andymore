@@ -56,7 +56,7 @@ export default function HomePage() {
           <div className="max-w-2xl">
             <p className="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-widest text-[#c9a84c] mb-4">
               <span className="w-8 h-px bg-[#c9a84c]" />
-              Ojodu Berger, Lagos
+              Ojodu Berger, Lagos 
             </p>
             <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
               Quality Materials.{" "}

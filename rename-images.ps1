@@ -20,4 +20,5 @@ Rename-Item "$dir\ChatGPT Image Jun 30, 2026, 01_16_43 PM.png" "decorative-gold-
 Rename-Item "$dir\ChatGPT Image Jun 30, 2026, 01_26_30 PM.png" "decorative-mirrors-gallery.jpg"
 Rename-Item "$dir\ChatGPT Image Jun 30, 2026, 01_59_28 PM.png" "water-tanks.jpg"
 Rename-Item "$dir\ChatGPT Image Jun 30, 2026, 02_16_46 PM.png" "andymore-storefront.jpg"
+Rename-Item "$dir\ChatGPT Image Jul 2, 2026, 12_15_02 AM.png" "premium-3-burner-gas-cooktop.png"
 Write-Host "Done renaming images."

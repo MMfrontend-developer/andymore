@@ -110,15 +110,15 @@ export const products: Product[] = [
   },
   {
     id: "kitchen-sinks",
-    name: "Kitchen Sinks & Mixers",
+    name: "Burner Tempered Glass Gas Cooktop",
     category: "Kitchen Appliances",
     description:
-      "Stainless steel and composite undermount and topmount kitchen sinks in single and double bowl configurations. Paired with a wide selection of mixer taps in chrome, brushed nickel, and matte black — functional meets stylish.",
-    image: "/images/products/shower-systems-faucets.jpg",
+      "A stylish 3-burner built-in gas cooktop with a premium tempered glass finish, high-efficiency brass burners, sturdy cast-iron supports, and precise flame control. Designed for durability, easy cleaning, and exceptional cooking performance.",
+    image: "/images/products/premium-3-burner-gas-cooktop.png",
   },
   {
     id: "kitchen-accessories",
-    name: "Kitchen Accessories & Fittings",
+    name: "Tiles & Fittings",
     category: "Kitchen Appliances",
     description:
       "Complete your kitchen with our range of accessories: pull-out basket systems, soft-close drawer fittings, cabinet handles, wall-mounted pot rails, and splash-back panels. Everything needed to finish your kitchen to a professional standard.",
