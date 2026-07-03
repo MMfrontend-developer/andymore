@@ -73,7 +73,7 @@ export default function Footer() {
               }}
             >
               <Image
-                src="/images/products/logo 2.png"
+                src="/images/products/logo-2.png"
                 alt="Andymore Logo"
                 width={2000}
                 height={887}
@@ -84,6 +84,7 @@ export default function Footer() {
                   left: "-19.6%",
                   top: "-19.1%",
                 }}
+                priority
               />
             </div>
           </div>

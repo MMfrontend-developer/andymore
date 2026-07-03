@@ -49,7 +49,7 @@ export default function Navbar() {
             }}
           >
             <Image
-              src="/images/products/logo 2.png"
+              src="/images/products/logo-2.png"
               alt="Andymore logo symbol"
               width={1774}
               height={887}
