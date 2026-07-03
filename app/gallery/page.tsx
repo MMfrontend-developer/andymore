@@ -14,11 +14,11 @@ const galleryImages = [
   { src: "/images/products/marble-porcelain-tiles.jpg", alt: "Marble and porcelain large-format tiles" },
   { src: "/images/products/tiles-cladding-variety.jpg", alt: "Tiles and decorative cladding selection" },
   { src: "/images/products/floor-wall-tiles-showroom.jpg", alt: "Floor and wall tiles showroom display" },
-  { src: "/images/products/tile-showroom-display.jpg", alt: "Premium tile showroom display" },
+  { src: "/images/products/bath-hub.jpeg", alt: "bath_hub display" },
   { src: "/images/products/decorative-mirrors.jpg", alt: "Decorative mirrors — gold and silver frames" },
   { src: "/images/products/decorative-gold-mirrors.jpg", alt: "Gold ornate decorative mirrors" },
+   { src: "/images/products/bathroom-mirrors-accessories.jpg", alt: "Bathroom mirrors and accessories" },
   { src: "/images/products/decorative-mirrors-gallery.jpg", alt: "Decorative mirror gallery display" },
-  { src: "/images/products/bathroom-mirrors-accessories.jpg", alt: "Bathroom mirrors and accessories" },
   { src: "/images/products/shower-systems-faucets.jpg", alt: "Shower systems and faucets display" },
   { src: "/images/products/shower-panels-columns.jpg", alt: "Shower panels and column systems" },
   { src: "/images/products/whirlpool-bathtub.jpg", alt: "Whirlpool Jacuzzi bathtub" },
@@ -87,7 +87,7 @@ export default function GalleryPage() {
             </h2>
             <div className="section-divider mt-2" />
           </div>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Video 1 */}
             <div className="rounded-2xl overflow-hidden bg-neutral-900 shadow-lg">
               <video
@@ -125,6 +125,26 @@ export default function GalleryPage() {
                 <h3 className="font-semibold text-white text-sm">Store Showcase</h3>
                 <p className="text-neutral-400 text-xs mt-1">
                   Range hoods, gas hobs, and kitchen fittings on display.
+                </p>
+              </div>
+            </div>
+            {/* Video 3 */}
+            <div className="rounded-2xl overflow-hidden bg-neutral-900 shadow-lg">
+              <video
+                id="gallery-video-3"
+                className="w-full aspect-video"
+                controls
+                preload="metadata"
+                poster="/images/products/poster_3.jpeg"
+                aria-label="Andymore showroom highlights video"
+              >
+                <source src="/videos/showroom_3.mp4" type="video/mp4" />
+                Your browser does not support HTML5 video.
+              </video>
+              <div className="p-4">
+                <h3 className="font-semibold text-white text-sm">Street-facing showroom</h3>
+                <p className="text-neutral-400 text-xs mt-1">
+                  More of our premium bathroom and tile collection on display.
                 </p>
               </div>
             </div>

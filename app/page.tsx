@@ -62,7 +62,7 @@ export default function HomePage() {
               Quality Materials.{" "}
               <span className="gradient-text">Beautiful Homes.</span>
             </h1>
-            <HeroTypewriter text="Andymore Business Concept is Lagos's trusted supplier of premium building materials and kitchen appliances, tiles, sanitary ware, bathtubs, range hoods, gas hobs, mirrors, water tanks, and more." />
+            <HeroTypewriter text="Andymore Business Concept is Lagos's trusted supplier of premium building materials and kitchen appliances, tiles, sanitary ware, bathtubs, gas hobs, mirrors, water tanks, and more." />
             <div className="flex flex-wrap gap-3">
               <Link
                 href="/products"
