@@ -38,7 +38,7 @@ export default function ProductsPage() {
             Our Products
           </h1>
           <p className="text-neutral-300 text-lg max-w-2xl mx-auto">
-            Everything you need to build, renovate, or outfit a kitchen — sourced with
+            Everything you need to build, renovate, or outfit a kitchen, sourced with
             care and available from our showroom in Ojodu Berger.
           </p>
           <p className="mt-3 text-sm text-neutral-400">

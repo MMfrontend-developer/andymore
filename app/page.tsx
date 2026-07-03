@@ -166,7 +166,7 @@ export default function HomePage() {
                 Lagos's Go-To Source for Building Excellence
               </h2>
               <p className="text-neutral-300 leading-relaxed mb-6">
-                Andymore Business Concept was built on a simple promise — deliver genuine
+                Andymore Business Concept was built on a simple promise to deliver genuine
                 quality at fair prices and stand behind every product we sell. Our showroom
                 at Ojodu Berger carries everything you need to build, renovate, or outfit a
                 kitchen in Lagos, with a team that knows the local market inside out.

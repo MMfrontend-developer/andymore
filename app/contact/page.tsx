@@ -105,7 +105,7 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <p className="text-white/90 text-sm mb-4">
-                  Send us a message right now — we typically respond within minutes during business hours.
+                  Send us a message right now, we typically respond within minutes during business hours.
                 </p>
                 <a
                   id="contact-whatsapp-btn"

@@ -44,12 +44,12 @@ const whyUsItems = [
   {
     icon: Users,
     title: "Expert Guidance",
-    desc: "Our experienced team speaks your language — whether you're a developer, contractor, or homeowner fitting out your first property.",
+    desc: "Our experienced team speaks your language, whether you're a developer, contractor, or homeowner fitting out your first property.",
   },
   {
     icon: CheckCircle,
     title: "One-Stop Shop",
-    desc: "From foundation to finishing — tiles, fittings, appliances, and more — all sourced from one trusted supplier in Ojodu Berger.",
+    desc: "From foundation to finishing, tiles, fittings, appliances, and more, all sourced from one trusted supplier in Ojodu Berger.",
   },
 ];
 

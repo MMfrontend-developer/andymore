@@ -65,7 +65,7 @@ export default function AboutPage() {
                 <p>
                   Andymore Business Concept was founded with a clear purpose: to give
                   homeowners, contractors, and property developers in Lagos access to
-                  premium building materials and kitchen appliances — without the hassle,
+                  premium building materials and kitchen appliances, without the hassle,
                   inflated prices, or uncertainty that plague many supply markets.
                 </p>
                 <p>
@@ -79,7 +79,7 @@ export default function AboutPage() {
                   shower systems, gas hobs, range hoods, and water storage tanks.
                 </p>
                 <p>
-                  We understand the Lagos building market — the timelines, the pressures,
+                  We understand the Lagos building market, the timelines, the pressures,
                   the need for reliable stock and honest advice. Whether you're tiling a
                   single bathroom or outfitting a 20-unit apartment block, we treat every
                   client with the same care and professionalism.
@@ -157,14 +157,14 @@ export default function AboutPage() {
               </h2>
               <p className="text-neutral-600 leading-relaxed mb-6">
                 Our mission is to be the most reliable and accessible supplier of
-                building materials and kitchen appliances in Lagos — empowering every
+                building materials and kitchen appliances in Lagos, empowering every
                 client to build and furnish with confidence. We achieve this by maintaining
                 excellent stock, offering unbiased product advice, and honouring every
                 commitment we make.
               </p>
               <p className="text-neutral-600 leading-relaxed mb-8">
                 We envision a Lagos where quality building materials are accessible, not a
-                privilege — and where every contractor and homeowner has a supplier they
+                privilege, and where every contractor and homeowner has a supplier they
                 genuinely trust.
               </p>
               {/* Pillars */}
@@ -203,7 +203,7 @@ export default function AboutPage() {
               {
                 num: "02",
                 title: "Honest, Knowledgeable Team",
-                body: "We won't push the most expensive option — we'll recommend what genuinely suits your project and budget. Our team is trained, experienced, and honest.",
+                body: "We won't push the most expensive option, we'll recommend what genuinely suits your project and budget. Our team is trained, experienced, and honest.",
               },
               {
                 num: "03",

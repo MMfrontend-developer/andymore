@@ -14,7 +14,7 @@ export const faqs: FAQ[] = [
   {
     question: "Do you do bulk orders for contractors and developers?",
     answer:
-      "Yes — we actively work with developers, contractors, and architects on large-scale projects. We maintain high stock levels for tiles, sanitary ware, fittings, and appliances, and we offer competitive pricing for trade buyers. Contact us to discuss your project requirements.",
+      "Yes, we actively work with developers, contractors, and architects on large-scale projects. We maintain high stock levels for tiles, sanitary ware, fittings, and appliances, and we offer competitive pricing for trade buyers. Contact us to discuss your project requirements.",
   },
   {
     question: "Do you deliver? What areas do you cover?",
@@ -59,7 +59,7 @@ export const faqs: FAQ[] = [
   {
     question: "Do you sell water tanks in different sizes?",
     answer:
-      "Yes. We stock polyethylene water storage tanks in a range of capacities — from 500 litres for residential use up to 10,000 litres for commercial and industrial applications. All tanks are UV-resistant, food-grade safe, and come with fittings.",
+      "Yes. We stock polyethylene water storage tanks in a range of capacities, from 500 litres for residential use up to 10,000 litres for commercial and industrial applications. All tanks are UV-resistant, food-grade safe, and come with fittings.",
   },
   {
     question: "How do I contact Andymore?",

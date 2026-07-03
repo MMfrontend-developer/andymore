@@ -86,7 +86,7 @@ export default function ServicesPage() {
               { step: "01", title: "Browse or Visit", desc: "Explore our products online or visit our Ojodu Berger showroom to see everything in person." },
               { step: "02", title: "Send an Enquiry", desc: "Reach us via WhatsApp, phone, or email with the product name and your requirements." },
               { step: "03", title: "We Confirm & Quote", desc: "Our team confirms availability and provides full details including delivery options." },
-              { step: "04", title: "Receive Your Order", desc: "Pay, schedule delivery or pickup, and receive your items — with our support throughout." },
+              { step: "04", title: "Receive Your Order", desc: "Pay, schedule delivery or pickup, and receive your items, with our support throughout." },
             ].map((item) => (
               <div key={item.step} className="relative z-10 flex flex-col items-center text-center p-5">
                 <div className="w-16 h-16 rounded-full bg-[#c0392b] text-white flex items-center justify-center font-display font-bold text-xl mb-4 shadow-lg">
@@ -145,7 +145,7 @@ export default function ServicesPage() {
           </h2>
           <p className="text-neutral-500 leading-relaxed mb-8 max-w-xl mx-auto">
             Whether you're buying a single item or supplying an entire development,
-            our team is ready to help. Reach us instantly on WhatsApp — we typically
+            our team is ready to help. Reach us instantly on WhatsApp, we typically
             respond within minutes during business hours.
           </p>
           <div className="flex flex-wrap justify-center gap-3">

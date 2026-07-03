@@ -15,7 +15,7 @@ export const products: Product[] = [
     name: "Floor & Wall Tiles",
     category: "Building Materials",
     description:
-      "Premium porcelain and ceramic tiles in marble, stone, mosaic, and wood-effect finishes. Available in multiple sizes for floors, walls, bathrooms, and outdoor spaces — built to last in Lagos's climate.",
+      "Premium porcelain and ceramic tiles in marble, stone, mosaic, and wood-effect finishes. Available in multiple sizes for floors, walls, bathrooms, and outdoor spaces, built to last in Lagos's climate.",
     image: "/images/products/flooring-tile-variety.jpg",
   },
   {
@@ -23,7 +23,7 @@ export const products: Product[] = [
     name: "Marble & Porcelain Slabs",
     category: "Building Materials",
     description:
-      "Large-format polished marble and porcelain slabs for statement floors, feature walls, and countertops. Stunning veining patterns from Calacatta white to dramatic dark tones — imported quality at competitive rates.",
+      "Large-format polished marble and porcelain slabs for statement floors, feature walls, and countertops. Stunning veining patterns from Calacatta white to dramatic dark tones, imported quality at competitive rates.",
     image: "/images/products/marble-porcelain-tiles.jpg",
   },
   {
@@ -31,7 +31,7 @@ export const products: Product[] = [
     name: "Decorative Wall Cladding",
     category: "Building Materials",
     description:
-      "Textured stone, brick-look, and mosaic cladding panels for interior feature walls and exterior facades. Add depth and character to any build without the weight of natural stone.",
+      "Textured stone, brick-look, and mosaic cladding panels for interior feature walls and exterior facades. Add depth and character to any building, without the weight of natural stone.",
     image: "/images/products/tiles-cladding-variety.jpg",
   },
   {
@@ -47,7 +47,7 @@ export const products: Product[] = [
     name: "Bathroom Mirrors",
     category: "Building Materials",
     description:
-      "Contemporary and ornate bathroom mirrors — from sleek frameless rectangles to LED-backlit vanity mirrors. Also available in gold-framed baroque and oval styles for a luxurious bathroom aesthetic.",
+      "Contemporary and ornate bathroom mirrors, from sleek frameless rectangles to LED-backlit vanity mirrors. Also available in gold-framed baroque and oval styles for a luxurious bathroom aesthetic.",
     image: "/images/products/bathroom-mirrors-accessories.jpg",
   },
   {
@@ -55,7 +55,7 @@ export const products: Product[] = [
     name: "Decorative Mirrors",
     category: "Building Materials",
     description:
-      "Statement decorative mirrors in silver and gold frames — oval, round, and rectangular designs with hand-carved details. Perfect for living rooms, entryways, and feature alcoves in any Nigerian home.",
+      "Statement decorative mirrors in silver and gold frames, oval, round, and rectangular designs with hand-carved details. Perfect for living rooms, entryways, and feature alcoves in any Nigerian home.",
     image: "/images/products/decorative-mirrors.jpg",
   },
   {
@@ -71,7 +71,7 @@ export const products: Product[] = [
     name: "Bathtubs & Jacuzzis",
     category: "Building Materials",
     description:
-      "Freestanding soaking tubs, built-in bathtubs, and whirlpool Jacuzzi units with multiple jet positions. Available in acrylic and composite materials — turn your bathroom into a private retreat.",
+      "Freestanding soaking tubs, built-in bathtubs, and whirlpool Jacuzzi units with multiple jet positions. Available in acrylic and composite materials, turn your bathroom into a private retreat.",
     image: "/images/products/whirlpool-bathtub.jpg",
   },
   {
@@ -89,7 +89,7 @@ export const products: Product[] = [
     name: "Kitchen Range Hoods",
     category: "Kitchen Appliances",
     description:
-      "Powerful kitchen extractor hoods in island-mount, wall-mount, and under-cabinet styles. Available in sleek black glass and stainless steel finishes — quiet motors, strong suction, and easy-clean filter systems.",
+      "Powerful kitchen extractor hoods in island-mount, wall-mount, and under-cabinet styles. Available in sleek black glass and stainless steel finishes, quiet motors, strong suction, and easy-clean filter systems.",
     image: "/images/products/kitchen-range-hoods.jpg",
   },
   {
@@ -105,7 +105,7 @@ export const products: Product[] = [
     name: "Chimney Range Hoods",
     category: "Kitchen Appliances",
     description:
-      "Statement chimney-style extractor hoods in stainless steel and black glass — designed for open-plan kitchens where the hood becomes part of the decor. High-performance motors eliminate smoke, steam, and cooking odours efficiently.",
+      "Statement chimney-style extractor hoods in stainless steel and black glass, designed for open-plan kitchens where the hood becomes part of the decor. High-performance motors eliminate smoke, steam, and cooking odours efficiently.",
     image: "/images/products/chimney-range-hoods.jpg",
   },
   {

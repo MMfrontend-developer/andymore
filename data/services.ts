@@ -10,7 +10,7 @@ export const services: Service[] = [
     id: "sourcing-supply",
     title: "Product Sourcing & Supply",
     description:
-      "We source premium building materials and kitchen appliances directly from trusted manufacturers, giving you access to quality products that aren't always available on the local market — delivered to your site in Lagos.",
+      "We source premium building materials and kitchen appliances directly from trusted manufacturers, giving you access to quality products that aren't always available on the local market, delivered to your site in Lagos.",
     icon: "PackageSearch",
   },
   {
@@ -24,7 +24,7 @@ export const services: Service[] = [
     id: "product-consultation",
     title: "Product Consultation",
     description:
-      "Not sure which tiles match your design brief, or which range hood suits your kitchen layout? Our experienced team will guide you through specifications, finishes, and compatibility — all at no extra charge.",
+      "Not sure which tiles match your design brief, or which range hood suits your kitchen layout? Our experienced team will guide you through specifications, finishes, and compatibility, all at no extra charge.",
     icon: "MessageSquare",
   },
   {
@@ -45,7 +45,7 @@ export const services: Service[] = [
     id: "project-supply",
     title: "Full Project Supply",
     description:
-      "From the foundation to the finishing touches — tiles, plumbing fittings, sanitary ware, kitchen appliances, mirrors, and water tanks — we can supply everything a residential or commercial project needs from one location.",
+      "From the foundation to the finishing touches, tiles, plumbing fittings, sanitary ware, kitchen appliances, mirrors, and water tanks, we can supply everything a residential or commercial project needs from one location.",
     icon: "Building2",
   },
   {
@@ -59,7 +59,7 @@ export const services: Service[] = [
     id: "interior-referrals",
     title: "Interior Design Referrals",
     description:
-      "Need help bringing your vision to life beyond the products? We connect you with trusted interior designers and finishing contractors in Lagos who understand the materials we supply — so your project comes together seamlessly.",
+      "Need help bringing your vision to life beyond the products? We connect you with trusted interior designers and finishing contractors in Lagos who understand the materials we supply, so your project comes together seamlessly.",
     icon: "Palette",
   },
   {
