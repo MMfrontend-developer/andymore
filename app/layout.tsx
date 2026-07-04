@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     description: BUSINESS_TAGLINE,
     images: [
       {
-        url: "/images/products/andymore-storefront.jpg",
+        url: "/images/products/logo.png",
         width: 1200,
         height: 630,
         alt: "Andymore Business Concept showroom",
