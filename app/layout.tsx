@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${BUSINESS_NAME} | Building Materials & Kitchen Appliances`,
     description: BUSINESS_TAGLINE,
-    images: ["/images/products/andymore-storefront.jpg"],
+    images: ["/images/products/logo.png"],
   },
   icons: {
     icon: "/images/products/logo.png",
