@@ -18,7 +18,7 @@ export const MAPS_EMBED_SRC =
 export const LAT = 6.6478;
 export const LNG = 3.3583;
 
-export const SITE_URL = "https://andymorebusiness.com"; // update when deployed
+export const SITE_URL = "https://www.andymorebusinessconcept.com.ng";
 
 export const whatsappLink = (productName?: string) => {
   const text = productName
