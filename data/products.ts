@@ -141,7 +141,7 @@ export const products: Product[] = [
     image: "/images/products/kitchen-cross-pattern-tiles.png",
   },
   {
-    id: "modern-minimalist-spa-bathroom-design",
+    id: "Modern-minimalist-spa-bathroom-design",
     name: "Modern Minimalist Spa Bathroom Design",
     category: "Building Materials",
     description:
