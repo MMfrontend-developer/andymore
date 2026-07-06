@@ -146,6 +146,6 @@ export const products: Product[] = [
     category: "Building Materials",
     description:
       "A contemporary bathroom sanctuary featuring a stunning freestanding bathtub, elegant floor and wall tiles, modern vanity, and high-quality fittings. Designed for a luxurious spa-like experience.",
-    image: "/images/products/modern-minimalist-spa-bathroom-design.png",
+    image: "/images/products/Modern-minimalist-spa-bathroom-design.png",
   },
 ];
