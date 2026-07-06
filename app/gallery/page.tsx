@@ -9,22 +9,39 @@ export const metadata: Metadata = {
 };
 
 const galleryImages = [
+  // Tiles & Flooring
   { src: "/images/products/flooring-tile-variety.jpg", alt: "Wide tile and flooring variety on display" },
   { src: "/images/products/marble-stone-tiles.jpg", alt: "Marble and stone tiles collection" },
   { src: "/images/products/marble-porcelain-tiles.jpg", alt: "Marble and porcelain large-format tiles" },
   { src: "/images/products/tiles-cladding-variety.jpg", alt: "Tiles and decorative cladding selection" },
   { src: "/images/products/floor-wall-tiles-showroom.jpg", alt: "Floor and wall tiles showroom display" },
+  { src: "/images/products/kitchen-blue-floral-tiles.png", alt: "Premium kitchen backsplash with blue floral design tiles" },
+  { src: "/images/products/Modern-minimalist-spa-bathroom-design.png", alt: "Modern bathroom with elegant freestanding soaking tub and grey tiles" },
+  { src: "/images/products/kitchen-wave-tiles-stove.png", alt: "Elegant kitchen with grey-blue wave patterned backsplash tiles" },
+  { src: "/images/products/kitchen-wood-band-tiles.png", alt: "Contemporary kitchen tiles with wood grain feature band" },
+  { src: "/images/products/kitchen-modern-wave-tiles.png", alt: "Sleek kitchen with wave patterned accent tile backsplash" },
+  { src: "/images/products/kitchen-diamond-pattern-tiles.png", alt: "Kitchen interior with blue-white diamond pattern wall tiles" },
+  { src: "/images/products/kitchen-cross-pattern-tiles.png", alt: "Luxurious kitchen backsplash with geometric cross pattern tiles" },
+  { src: "/images/products/kitchen-grey-marble-tiles.png", alt: "Modern kitchen backsplash featuring grey marble-look tiles" },
+
+  // Bathrooms, Showers & Bathtubs
   { src: "/images/products/bath-hub.jpeg", alt: "bath_hub display" },
-  { src: "/images/products/decorative-mirrors.jpg", alt: "Decorative mirrors — gold and silver frames" },
-  { src: "/images/products/decorative-gold-mirrors.jpg", alt: "Gold ornate decorative mirrors" },
-   { src: "/images/products/bathroom-mirrors-accessories.jpg", alt: "Bathroom mirrors and accessories" },
-  { src: "/images/products/decorative-mirrors-gallery.jpg", alt: "Decorative mirror gallery display" },
+  { src: "/images/products/bathroom-brick-tiles-vanity.png", alt: "Designer bathroom with textured brick tiles and vanity unit" },
+  { src: "/images/products/bathroom-modern-grey-tiles.png", alt: "Minimalist bathroom with large-format grey wall tiles and wall-hung WC" },
+  { src: "/images/products/bathroom-freestanding-tub-grey.png", alt: "Modern bathroom with elegant freestanding soaking tub and grey tiles" },
+  { src: "/images/products/bathroom-wood-tiles-round-mirror.png", alt: "Luxury bathroom featuring warm wood-look wall tiles and round vanity mirror" },
   { src: "/images/products/shower-systems-faucets.jpg", alt: "Shower systems and faucets display" },
   { src: "/images/products/shower-panels-columns.jpg", alt: "Shower panels and column systems" },
   { src: "/images/products/whirlpool-bathtub.jpg", alt: "Whirlpool Jacuzzi bathtub" },
   { src: "/images/products/freestanding-bathtubs.jpg", alt: "Freestanding bathtubs" },
   { src: "/images/products/toilet-sets-water-heater.jpg", alt: "Toilet sets and water heaters" },
   { src: "/images/products/ceramic-basins-wc.jpg", alt: "Ceramic basins, WC and vanity units" },
+
+  // Mirrors, Kitchen Appliances & Tanks
+  { src: "/images/products/decorative-mirrors.jpg", alt: "Decorative mirrors — gold and silver frames" },
+  { src: "/images/products/decorative-gold-mirrors.jpg", alt: "Gold ornate decorative mirrors" },
+  { src: "/images/products/bathroom-mirrors-accessories.jpg", alt: "Bathroom mirrors and accessories" },
+  { src: "/images/products/decorative-mirrors-gallery.jpg", alt: "Decorative mirror gallery display" },
   { src: "/images/products/kitchen-range-hoods.jpg", alt: "Kitchen range hoods" },
   { src: "/images/products/chimney-range-hoods.jpg", alt: "Chimney-style range hoods" },
   { src: "/images/products/built-in-gas-hobs.jpg", alt: "Built-in gas hobs and cooktops" },

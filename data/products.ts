@@ -124,4 +124,28 @@ export const products: Product[] = [
       "Complete your kitchen with our range of accessories: pull-out basket systems, soft-close drawer fittings, cabinet handles, wall-mounted pot rails, and splash-back panels. Everything needed to finish your kitchen to a professional standard.",
     image: "/images/products/tiles-cladding-variety.jpg",
   },
+  {
+    id: "luxury-wood-look-tiles",
+    name: "Wood-Look Wall & Floor Tiles",
+    category: "Building Materials",
+    description:
+      "Premium porcelain tiles mimicking natural timber textures and tones. Perfect for warm, inviting bathrooms, accent walls, and bedroom floors. Durable and water-resistant for wet areas.",
+    image: "/images/products/bathroom-wood-tiles-round-mirror.png",
+  },
+  {
+    id: "geometric-backsplash-tiles",
+    name: "Geometric Backsplash Tiles",
+    category: "Building Materials",
+    description:
+      "Stunning accent tiles featuring modern wave, floral, and cross-geometric patterns. Ideal for kitchen backsplashes and bathroom highlight walls to add a touch of sophisticated style.",
+    image: "/images/products/kitchen-cross-pattern-tiles.png",
+  },
+  {
+    id: "modern-minimalist-spa-bathroom-design",
+    name: "Modern Minimalist Spa Bathroom Design",
+    category: "Building Materials",
+    description:
+      "A contemporary bathroom sanctuary featuring a stunning freestanding bathtub, elegant floor and wall tiles, modern vanity, and high-quality fittings. Designed for a luxurious spa-like experience.",
+    image: "/images/products/modern-minimalist-spa-bathroom-design.png",
+  },
 ];
